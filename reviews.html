@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/reviews.min.css">
+    <title>Столичные Окна - Отзывы</title>
+  </head>
+  <body>
+    <div class="burger ml-auto">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+    </div>
+    <nav id="nav">
+      <ul class="menu">
+        <li class="menu__item"><a href="about.html" class="menu__link-main">О Компании</a></li>
+        <ul class="menu__sub">
+          <li class="menu__item"><a href="articles.html" class="menu__link-sub">Новости</a></li>
+          <li class="menu__item"><a href="vacancy.html" class="menu__link-sub">Вакансии</a></li>
+          <li class="menu__item"><a href="pay.html#guarantee" class="menu__link-sub">Гарантии</a></li>
+          <li class="menu__item"><a href="about.html#awards" class="menu__link-sub">Награды</a></li>
+          <li class="menu__item"><a href="about.html#works" class="menu__link-sub">Наши работы</a></li>
+          <li class="menu__item"><a href="vacancy.html#workers" class="menu__link-sub">Сотрудники</a></li>
+          <li class="menu__item"><a href="pay.html" class="menu__link-sub">Оплата</a></li>
+        </ul>
+        <li class="menu__item"><a href="services.html" class="menu__link-main">Услуги</a></li>
+        <li class="menu__item"><a href="reviews.html" class="menu__link-main">Отзывы</a></li>
+        <li class="menu__item"><a href="stocks.html" class="menu__link-main">Акции</a></li>
+        <hr>
+        <li class="menu__item"><a href="index.html" class="menu__link-main">Окна</a></li>
+        <li class="menu__item"><a href="balcony.html" class="menu__link-main">Балконы</a></li>
+        <li class="menu__item"><a href="cottages.html" class="menu__link-main">Коттеджи</a></li>
+        <li class="menu__item"><a href="contacts.html" class="menu__link-main">Контакты</a></li>
+        <li class="menu__item"><a href="articles.html" class="menu__link-main">Статьи</a></li>      
+        <hr> 
+        <div class="cash">
+          <p class="cash__take">Принимаем к оплате</p>
+          <div class="cash__types ">
+            <img src="img/cash-1.png" alt="">
+            <img src="img/cash-2.png" alt="">
+            <img src="img/cash-3.png" alt="">
+          </div>
+        </div>
+        <hr>
+        <p class="info__city">Нижний Новгород</p>
+        <i class="fa fa-phone-alt info__icon"></i><span class="info__phone"> +7(831)216-19-69 </span>
+      </ul>
+      
+    </nav>
+    <header>
+      <div class="container d-flex">
+        <div class="col-lg-3 col-md-2">
+          <a href="index.html" class="logo">          
+            <img src="img/logo.png" alt="" class="logo__img">
+          </a>
+        </div>
+        <div class="col-lg-9 col-md-11 col-sm-9">
+          <div class="info">
+            <div class="row d-flex">
+              <div class="col-lg-5 col-md-5 col-sm-11" >
+                <p class="info__city">Нижний Новгород</p>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-11 ml-lg-auto">
+                  <i class="fa fa-phone-alt info__icon"></i><span class="info__phone"> +7(831)216-19-69 </span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <nav>
+                <ul class="nav nav-pills main-menu d-flex">
+                  <li class="main-menu__item dropdown">
+                    <a class="main-menu__link" data-toggle="dropdown" href="about.html" role="button" aria-haspopup="true" aria-expanded="false">О компании</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="articles.html">Новости</a>
+                      <a class="dropdown-item" href="vacancy.html">Вакансии</a>
+                      <a class="dropdown-item" href="pay.html#guarantee">Гарантия</a>
+                      <a class="dropdown-item" href="about.html#awards">Награды</a>
+                      <a class="dropdown-item" href="about.html#works">Наши работы</a>
+                      <a class="dropdown-item" href="vacancy.html#workers">Сотрудники</a>
+                      <a class="dropdown-item" href="pay.html">Оплата</a>
+                    </div>
+                  </li>
+                  <li class="main-menu__item"><a href="services.html" class="main-menu__link">Услуги</a></li>
+                  <li class="main-menu__item"><a href="reviews.html" class="main-menu__link">Отзывы</a></li>
+                  <li class="main-menu__item"><a href="stocks.html" class="main-menu__link">Акции</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-5 ml-auto cp" data-toggle="modal" data-target="#zamer"><p class="request-info">Приём заявок круглосуточно</p></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+              <nav>
+                <ul class="nav nav-pills cat d-flex">
+                  <li class="cat__item"><a href="okna.html" class="cat__link">Окна</a></li>
+                  <li class="cat__item"><a href="balcony.html" class="cat__link">Балконы</a></li>
+                  <li class="cat__item"><a href="cottages.html" class="cat__link">Коттеджи</a></li>
+                  <li class="cat__item"><a href="contacts.html" class="cat__link">Контакты</a></li>
+                  <li class="cat__item"><a href="articles.html" class="cat__link">Статьи</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-4 email-info">info@stolokna.ru</div>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+    <section id="main">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="main">
+            <div class="row d-flex flex-column">
+              <h1 class="main__title">Отзывы</h1>
+              <span class="main__descr">Нам важно ваше мнение!</span>
+            </div>
+            <div class="row d-flex flex-sm-column flex-md-row">
+              <a href="#leave"><button type="button" class="btn btn-primary main__btn">написать отзыв</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="crumbs">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Отзывы</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section id="reviews">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <a name="reviews"></a>
+          <div class="row d-flex flex-column">
+            <h2 class="section__title blue">Отзывы о компании «Столичные Окна»</h2>
+            <p class="section__tagline">Нам приятно получать профессиональные награды и премии, но гораздо важнее получать объективные отзывы о нашей работе. Для нас важно любое мнение: благодаря вашим откликам мы повышаем свое мастерство и качество продукта!</p>
+          </div>
+          <div class="row pt-5">
+            <h4 class="section__subtitle blue">Ознакомьтесь с отзывами наших клиентов.</h4>
+            <p class="section__tagline">Примерьте на себя удовольствие от новых окон.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-lg-12 col-xl-8 m-auto">
+          <div class="reviews">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="reviews__item d-flex flex-column flex-lg-row">
+                    <div class="col-lg-3">
+                        <h5 class="reviews__auth"><i><b>Смирновы А.А, М.И.</b><br>г.Нижний Новгород</i></h5>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="reviews__msg">Приятно удивили короткие сроки ожидания установки. Изготовление окон и их установка занимает меньше времени, чем у других компаний. Приятно, когда работу выполняют квалифицированные специалисты, профессионалы своего дела и просто приятные в общении люди. Советы и небольшие скидки являются приятным дополнением. Удачи сотрудникам.</p>
+                    </div>
+                  </div>
+                  <div class="reviews__item d-flex flex-column flex-lg-row">
+                    <div class="col-lg-3">
+                        <h5 class="reviews__auth"><i><b>Игорь</b><br>г.Нижний Новгород</i></h5>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="reviews__msg">Приятно удивили короткие сроки ожидания установки. Изготовление окон и их установка занимает меньше времени, чем у других компаний. Приятно, когда работу выполняют квалифицированные специалисты, профессионалы своего дела и просто приятные в общении люди. Советы и небольшие скидки являются приятным дополнением. Удачи сотрудникам.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="reviews__item d-flex flex-column flex-lg-row">
+                    <div class="col-lg-3">
+                        <h5 class="reviews__auth"><i><b>Смирновы А.А, М.И.</b><br>г.Нижний Новгород</i></h5>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="reviews__msg">Приятно удивили короткие сроки ожидания установки. Изготовление окон и их установка занимает меньше времени, чем у других компаний. Приятно, когда работу выполняют квалифицированные специалисты, профессионалы своего дела и просто приятные в общении люди. Советы и небольшие скидки являются приятным дополнением. Удачи сотрудникам.</p>
+                    </div>
+                  </div>
+                  <div class="reviews__item d-flex flex-column flex-lg-row">
+                    <div class="col-lg-3">
+                        <h5 class="reviews__auth"><i><b>Игорь</b><br>г.Нижний Новгород</i></h5>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="reviews__msg">Приятно удивили короткие сроки ожидания установки. Изготовление окон и их установка занимает меньше времени, чем у других компаний. Приятно, когда работу выполняют квалифицированные специалисты, профессионалы своего дела и просто приятные в общении люди. Советы и небольшие скидки являются приятным дополнением. Удачи сотрудникам.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="reviews__item d-flex flex-column flex-lg-row">
+                    <div class="col-lg-3">
+                        <h5 class="reviews__auth"><i><b>Смирновы А.А, М.И.</b><br>г.Нижний Новгород</i></h5>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="reviews__msg">Приятно удивили короткие сроки ожидания установки. Изготовление окон и их установка занимает меньше времени, чем у других компаний. Приятно, когда работу выполняют квалифицированные специалисты, профессионалы своего дела и просто приятные в общении люди. Советы и небольшие скидки являются приятным дополнением. Удачи сотрудникам.</p>
+                    </div>
+                  </div>
+                  <div class="reviews__item d-flex flex-column flex-lg-row">
+                    <div class="col-lg-3">
+                        <h5 class="reviews__auth"><i><b>Игорь</b><br>г.Нижний Новгород</i></h5>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="reviews__msg">Приятно удивили короткие сроки ожидания установки. Изготовление окон и их установка занимает меньше времени, чем у других компаний. Приятно, когда работу выполняют квалифицированные специалисты, профессионалы своего дела и просто приятные в общении люди. Советы и небольшие скидки являются приятным дополнением. Удачи сотрудникам.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews__indicators d-flex">
+                <p class="reviews__indicator reviews__prev" href="#carouselExampleIndicators" role="button" data-slide="prev">&lt;</p>
+                <div class="carousel-indicators reviews__nums d-flex">
+                  <p class="reviews__num" data-target="#carouselExampleIndicators" data-slide-to="0" class="active">1</p>
+                  <p class="reviews__num" data-target="#carouselExampleIndicators" data-slide-to="1">2</p>
+                  <p class="reviews__num" data-target="#carouselExampleIndicators" data-slide-to="2">3</p>
+                </div>
+                <p class="reviews__indicator reviews__next" href="#carouselExampleIndicators" role="button" data-slide="next">&gt;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="leave">
+      <div class="container">
+        <a name="leave"></a>
+        <div class="col-lg-10 m-auto">
+          <div class="row d-flex flex-column">
+            <h2 class="section__title blue">Оставьте свой отзыв</h2>
+            <p class="section__tagline">Ваше мнение важно для нас!</p>
+          </div>
+          <div class="row d-flex flex-column">
+            <form>
+              <div class="form-row leave__group">
+                  <div class="col-lg-4">
+                    <input type="text" class="form-control leave__input" placeholder="Имя" required>
+                  </div>
+                  <div class="col-lg-4">
+                    <input type="text" class="form-control leave__input" placeholder="Телефон" required>
+                  </div>
+                  <div class="col-lg-4">
+                    <input type="text" class="form-control leave__input" placeholder="E-mail" required>
+                  </div>
+              </div>
+              <div class="form-row leave__group">
+                <div class="col-lg-4">
+                  <input type="text" class="form-control leave__input" placeholder="№ Номер договора" required>
+                </div>
+                <div class="col-lg-4">
+                  <input type="text" class="form-control leave__input" placeholder="Продукция или услуга" required>
+                </div>
+              </div>
+              <div class="form-row leave__group">
+                <textarea class="form-control leave__input" id="exampleFormControlTextarea1" rows="5" placeholder="Ваше сообщение..."></textarea>
+              </div>
+              <div class="form-row leave__group">
+                <div class="col-lg-4">
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  <input type="text" id="disabledTextInput" class="form-control leave__input" placeholder="Прикрепите файл...">
+                </div>
+                <div class="col-lg-4">
+                  <p class="leave__file">Максимальный размер файла - 10 Мб.</p>
+                </div>
+                <div class="col-lg-4"><button class="btn btn-primary leave__btn" type="submit">Отправить</button></div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="request">
+        <div class="container">
+          <div class="request col-lg-10 m-auto">
+            <div class="row d-flex flex-column">
+              <div class="col-lg-12">
+                <h2 class="section__title white">оформите заявку на нашем сайте</h2>
+                <p class="section__tagline white">Мы качественно выполним Ваш заказ.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <form>
+                  <div class="form-row">
+                    <div class="col-lg-4">
+                      <input type="text" class="form-control request__input" placeholder="Имя">
+                    </div>
+                    <div class="col-lg-4">
+                      <input type="text" class="form-control request__input" placeholder="Телефон">
+                    </div>
+                    <div class="col-lg-4">
+                        <button type="button" class="btn request__btn">Оставить заявку</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="actions">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="actions">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="stocks.html">
+                  <div class="actions__item">
+                    <i class="fa fa-gift"></i> <span>Подарок</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="actions__item" data-toggle="modal" data-target="#call">
+                  <i class="fa fa-phone-alt"></i> <span>Обратный звонок</span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="index.html#price">
+                  <div class="actions__item">
+                    <i class="fa fa-calculator"></i> <span>Рассчет стоимости</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="actions__item" data-toggle="modal" data-target="#zamer">
+                  <i class="fa fa-pencil-ruler"></i> <span>Запись на замер</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="footer">
+            <div class="row">
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Продукция</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">О Компании</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Услуги</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Контакты</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="okna.html" class="footer__link">Окна</a></li>
+                  <li class="footer__item"><a href="cottages.html#doors" class="footer__link">Двери</a></li>
+                  <li class="footer__item"><a href="balcony.html" class="footer__link">Балконы</a></li>
+                  <li class="footer__item"><a href="okna.html" class="footer__link">Окна в дом</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="articles.html" class="footer__link">Новости</a></li>
+                  <li class="footer__item"><a href="vacancy.html" class="footer__link">Вакансии</a></li>
+                  <li class="footer__item"><a href="pay.html#guarantee" class="footer__link">Гарантия</a></li>
+                  <li class="footer__item"><a href="about.html#awards" class="footer__link">Награды</a></li>
+                  <li class="footer__item"><a href="about.html#works" class="footer__link">Наши работы</a></li>
+                  <li class="footer__item"><a href="vacancy.html#workers" class="footer__link">Сотрудники</a></li>
+                  <li class="footer__item"><a href="pay.html" class="footer__link">Оплата</a></li>
+                  <li class="footer__item"><a href="reviews.html" class="footer__link">Отзывы</a></li>
+                  <li class="footer__item"><a href="stocks.html" class="footer__link">Акции</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="services.html#delivery" class="footer__link">Доставка</a></li>
+                  <li class="footer__item"><a href="index.html#price" class="footer__link">Калькулятор</a></li>
+                  <li class="footer__item"><a href="services.html#credit" class="footer__link">Кредит и рассрочка</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <p class="footer__phone">+7(831)216-19-69</p>
+                <p class="footer__worktime">Круглосуточно</p>
+                <p class="footer__email">info@stolokna.ru</p>
+                <div class="cash">
+                  <p class="cash__take">Принимаем к оплате</p>
+                  <div class="cash__types ">
+                    <img src="img/cash-1.png" alt="">
+                    <img src="img/cash-2.png" alt="">
+                    <img src="img/cash-3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex flex-column">
+              <h4 class="footer__name">“Столичные Окна”</h4>
+              <p class="footer__copy">&copy;&nbsp;Все права защищены 2019</p>
+              <span class="footer__info">Сайт не является публичной офертой и носит информационный характер.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> 
+
+    <!-- Modal Windows -->
+    <div class="modal fade" id="zamer" tabindex="0" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal__title">Запись на бесплатный замер</h4>
+            <p class="modal__text">Оператор ответит на все вопросы по взаимодействию и процессу работ, поможет вызвать инженера-сметчика на сегодня или выходные.</p>
+            <input type="text" placeholder="Телефон" class="form control modal__input">
+            <button type="button" class="modal__btn">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="call" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal__title">Закажите бесплатный звонок</h4>
+            <p class="modal__text">Оставьте свои контакты и мы перезвоним вам через 5 минут. Оператор ответит на все вопросы по взаимодействию и процессу работ, поможет вызвать инженера-сметчика на сегодня или выходные.</p>
+            <input type="text" placeholder="Телефон" class="modal__input">
+            <button type="button" class="modal__btn">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/burger.js"></script> 
+    <script src="https://kit.fontawesome.com/b60b688cfa.js"></script>
+
+  </body>
+</html>

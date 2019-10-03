@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/vacancy.min.css">
+    <title>Столичные Окна - Вакансии и сотрудники</title>
+  </head>
+  <body>
+    <div class="burger ml-auto">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+    </div>
+    <nav id="nav">
+      <ul class="menu">
+        <li class="menu__item"><a href="about.html" class="menu__link-main">О Компании</a></li>
+        <ul class="menu__sub">
+          <li class="menu__item"><a href="articles.html" class="menu__link-sub">Новости</a></li>
+          <li class="menu__item"><a href="vacancy.html" class="menu__link-sub">Вакансии</a></li>
+          <li class="menu__item"><a href="pay.html#guarantee" class="menu__link-sub">Гарантии</a></li>
+          <li class="menu__item"><a href="about.html#awards" class="menu__link-sub">Награды</a></li>
+          <li class="menu__item"><a href="about.html#works" class="menu__link-sub">Наши работы</a></li>
+          <li class="menu__item"><a href="vacancy.html#workers" class="menu__link-sub">Сотрудники</a></li>
+          <li class="menu__item"><a href="pay.html" class="menu__link-sub">Оплата</a></li>
+        </ul>
+        <li class="menu__item"><a href="services.html" class="menu__link-main">Услуги</a></li>
+        <li class="menu__item"><a href="reviews.html" class="menu__link-main">Отзывы</a></li>
+        <li class="menu__item"><a href="stocks.html" class="menu__link-main">Акции</a></li>
+        <hr>
+        <li class="menu__item"><a href="index.html" class="menu__link-main">Окна</a></li>
+        <li class="menu__item"><a href="balcony.html" class="menu__link-main">Балконы</a></li>
+        <li class="menu__item"><a href="cottages.html" class="menu__link-main">Коттеджи</a></li>
+        <li class="menu__item"><a href="contacts.html" class="menu__link-main">Контакты</a></li>
+        <li class="menu__item"><a href="articles.html" class="menu__link-main">Статьи</a></li>      
+        <hr> 
+        <div class="cash">
+          <p class="cash__take">Принимаем к оплате</p>
+          <div class="cash__types ">
+            <img src="img/cash-1.png" alt="">
+            <img src="img/cash-2.png" alt="">
+            <img src="img/cash-3.png" alt="">
+          </div>
+        </div>
+        <hr>
+        <p class="info__city">Нижний Новгород</p>
+        <i class="fa fa-phone-alt info__icon"></i><span class="info__phone"> +7(831)216-19-69 </span>
+      </ul>
+      
+    </nav>
+    <header>
+      <div class="container d-flex">
+        <div class="col-lg-3 col-md-2">
+          <a href="index.html" class="logo">          
+            <img src="img/logo.png" alt="" class="logo__img">
+          </a>
+        </div>
+        <div class="col-lg-9 col-md-11 col-sm-9">
+          <div class="info">
+            <div class="row d-flex">
+              <div class="col-lg-5 col-md-5 col-sm-11" >
+                <p class="info__city">Нижний Новгород</p>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-11 ml-lg-auto">
+                  <i class="fa fa-phone-alt info__icon"></i><span class="info__phone"> +7(831)216-19-69 </span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <nav>
+                <ul class="nav nav-pills main-menu d-flex">
+                  <li class="main-menu__item dropdown">
+                    <a class="main-menu__link" data-toggle="dropdown" href="about.html" role="button" aria-haspopup="true" aria-expanded="false">О компании</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="articles.html">Новости</a>
+                      <a class="dropdown-item" href="vacancy.html">Вакансии</a>
+                      <a class="dropdown-item" href="pay.html#guarantee">Гарантия</a>
+                      <a class="dropdown-item" href="about.html#awards">Награды</a>
+                      <a class="dropdown-item" href="about.html#works">Наши работы</a>
+                      <a class="dropdown-item" href="vacancy.html#workers">Сотрудники</a>
+                      <a class="dropdown-item" href="pay.html">Оплата</a>
+                    </div>
+                  </li>
+                  <li class="main-menu__item"><a href="services.html" class="main-menu__link">Услуги</a></li>
+                  <li class="main-menu__item"><a href="reviews.html" class="main-menu__link">Отзывы</a></li>
+                  <li class="main-menu__item"><a href="stocks.html" class="main-menu__link">Акции</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-5 ml-auto cp" data-toggle="modal" data-target="#zamer"><p class="request-info">Приём заявок круглосуточно</p></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+              <nav>
+                <ul class="nav nav-pills cat d-flex">
+                  <li class="cat__item"><a href="okna.html" class="cat__link">Окна</a></li>
+                  <li class="cat__item"><a href="balcony.html" class="cat__link">Балконы</a></li>
+                  <li class="cat__item"><a href="cottages.html" class="cat__link">Коттеджи</a></li>
+                  <li class="cat__item"><a href="contacts.html" class="cat__link">Контакты</a></li>
+                  <li class="cat__item"><a href="articles.html" class="cat__link">Статьи</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-4 email-info">info@stolokna.ru</div>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+    <section id="main">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="main">
+            <div class="row d-flex flex-column">
+              <p class="main__tagline">С нами интересно</p>
+              <h1 class="main__title">Приходите в нашу команду!</h1>
+              <span class="main__descr">Работа в дружном коллективе, карьерные перспективы, достойная оплата труда</span>
+            </div>
+            <div class="row d-flex flex-sm-column flex-md-row">
+              <button type="button" class="btn btn-primary main__btn" data-toggle="modal" data-target="#consult">отправить резюме</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="crumbs">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+              <li class="breadcrumb-item"><a href="about.html">О компании</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Вакансии и сотрудники</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section id="vacancy">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="row d-flex flex-column pb-5">
+            <h1 class="section__title blue">Вакансии</h1>
+            <p class="section__tagline">Профессионализм каждого сотрудника — один из главных секретов успеха компании. Присоединяйтесь к команде «Столичные Окна» — ваши таланты раскроются еще ярче!</p>
+          </div>
+          <div class="row d-flex flex-column">
+            <h2 class="vacancy__title">Монтажник светопрозрачных конструкций</h2>
+            <h3 class="vacancy__title">Требования</h3>
+            <p class="vacancy__desc">Опыт работы от двух лет</p>
+            <p class="vacancy__desc">Наличие инструмента</p>
+            <p class="vacancy__desc">Исполнительность, ответственность, аккуратность и неконфликтность</p>
+            <p class="vacancy__desc">Умение вежливо общаться с клиентами</p>
+            <p class="vacancy__desc">Умение следовать правилам и регламентам</p>
+            <h3 class="vacancy__title">Обязанности</h3>
+            <p class="vacancy__desc">Монтаж светопрозрачных конструкций ПВХ, AL</p>
+            <h3 class="vacancy__title">Условия</h3>
+            <p class="vacancy__desc">Стабильный поток заказов на монтаж</p>
+            <p class="vacancy__desc">Работа в условиях уважения и понимания</p>
+            <p class="vacancy__desc">По-настоящему высокая заработная плата</p>
+            <p class="vacancy__desc">Работа в команде профессионалов</p>
+            <p class="vacancy__desc">Полная занятость/гибкий график</p>
+            <span class="vacancy__contact"><b>Контактный телефон:</b> +7(831)216-19-69  с 8-00 до 16-00.</span>
+          </div>
+          <hr>
+          <div class="row d-flex flex-column">
+            <h2 class="vacancy__title">Менеджер активных продаж</h2>
+            <h3 class="vacancy__title">Требования</h3>
+            <p class="vacancy__desc">Опыт работы в активных продажах или торговым представителем от 3-х лет обязателен</p>
+            <p class="vacancy__desc">Высшее образование</p>
+            <p class="vacancy__desc">Готовность к разъездному характеру работы</p>
+            <p class="vacancy__desc">Наличие личного автомобиля</p>
+            <p class="vacancy__desc">Уверенный пользователь ПК</p>
+            <p class="vacancy__desc">Нацеленность на результат</p>
+            <p class="vacancy__desc">Коммуникабельность, исполнительность</p>
+            <h3 class="vacancy__title">Обязанности</h3>
+            <p class="vacancy__desc">Активный поиск и привлечение новых клиентов и партнеров</p>
+            <p class="vacancy__desc">Организация встреч с клиентами</p>
+            <p class="vacancy__desc">Презентация компании</p>
+            <p class="vacancy__desc">Ведение коммерческих переговоров</p>
+            <p class="vacancy__desc">Заключение договоров</p>
+            <p class="vacancy__desc">Выстраивание долгосрочных партнерских отношений</p>
+            <p class="vacancy__desc">Анализ рынка, оценка конкурентной ситуации</p>
+            <p class="vacancy__desc">Работа с уже имеющимися планами по заключению договоров, встреч, продаж</p>
+            <p class="vacancy__desc">Участие в разработке программ по продвижению продукции компании в других регионах РФ</p>
+            <p class="vacancy__desc">Ведение отчётности по текущим задачам</p>
+            <h3 class="vacancy__title">Условия</h3>
+            <p class="vacancy__desc">Работа в крупной, стабильной торгово-производственной компании</p>
+            <p class="vacancy__desc">Своевременная выплата заработной платы — оклад + бонус</p>
+            <p class="vacancy__desc">Оплата ГСМ</p>
+            <p class="vacancy__desc">Оплата мобильной связи</p>
+            <p class="vacancy__desc">Оформление по ТК РФ</p>
+          </div>
+          <hr>
+          <div class="row">
+            <span class="vacancy__call">Откликнуться на вакансию вы можете, отправив нам свое резюме с обязательным указанием названия вакансии. Тел.: +7 (831) 216-19-69</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="workers">
+      <div class="container">
+        <a name="workers"> </a>
+        <div class="col-lg-10 m-auto">
+          <div class="row d-flex flex-column">
+            <h1 class="section__title blue">Сотрудники</h1>
+            <p class="section__tagline">Главный секрет успеха компании «Столичные Окна» — профессионализм каждого сотрудника.</p>
+          </div>
+          <div class="row d-flex">
+            <div class="col-lg-4 col-md-4">
+              <div class="workers__item d-flex flex-column">
+                <div class="workers__img">
+                  <img src="img/vacancy-workers-1.png" alt="">
+                </div>
+                <div class="workers__content d-flex flex-column">
+                  <p class="workers__firstname">Подлипян</p>
+                  <p class="workers__lastname">Антон</p>
+                  <p class="workers__vacancy">Руководитель отдела замеров. </p>
+                  <span class="workers__info">Опыт работы экспертом по замерам более 15 лет, из них 10 лет руководителем.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="workers__item d-flex flex-column">
+                <div class="workers__img">
+                  <img src="img/vacancy-workers-2.png" alt="">
+                </div>
+                <div class="workers__content d-flex flex-column">
+                  <p class="workers__firstname">Михайленко</p>
+                  <p class="workers__lastname">Сергей</p>
+                  <p class="workers__vacancy">Инженер-конструктор</p>
+                  <span class="workers__info">Опыт работы специалистом по замерам 5 лет.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="workers__item d-flex flex-column">
+                <div class="workers__img">
+                  <img src="img/vacancy-workers-3.png" alt="">
+                </div>
+                <div class="workers__content d-flex flex-column">
+                  <p class="workers__firstname">Заречный</p>
+                  <p class="workers__lastname">Станислав</p>
+                  <p class="workers__vacancy">Менеджер заказа.</p>
+                  <span class="workers__info">Опыт работы специалистом по замерам 7 лет.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="actions">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="actions">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="stocks.html">
+                  <div class="actions__item">
+                    <i class="fa fa-gift"></i> <span>Подарок</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="actions__item" data-toggle="modal" data-target="#call">
+                  <i class="fa fa-phone-alt"></i> <span>Обратный звонок</span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="index.html#price">
+                  <div class="actions__item">
+                    <i class="fa fa-calculator"></i> <span>Рассчет стоимости</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="actions__item" data-toggle="modal" data-target="#zamer">
+                  <i class="fa fa-pencil-ruler"></i> <span>Запись на замер</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="footer">
+            <div class="row">
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Продукция</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">О Компании</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Услуги</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Контакты</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="okna.html" class="footer__link">Окна</a></li>
+                  <li class="footer__item"><a href="cottages.html#doors" class="footer__link">Двери</a></li>
+                  <li class="footer__item"><a href="balcony.html" class="footer__link">Балконы</a></li>
+                  <li class="footer__item"><a href="okna.html" class="footer__link">Окна в дом</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="articles.html" class="footer__link">Новости</a></li>
+                  <li class="footer__item"><a href="vacancy.html" class="footer__link">Вакансии</a></li>
+                  <li class="footer__item"><a href="pay.html#guarantee" class="footer__link">Гарантия</a></li>
+                  <li class="footer__item"><a href="about.html#awards" class="footer__link">Награды</a></li>
+                  <li class="footer__item"><a href="about.html#works" class="footer__link">Наши работы</a></li>
+                  <li class="footer__item"><a href="vacancy.html#workers" class="footer__link">Сотрудники</a></li>
+                  <li class="footer__item"><a href="pay.html" class="footer__link">Оплата</a></li>
+                  <li class="footer__item"><a href="reviews.html" class="footer__link">Отзывы</a></li>
+                  <li class="footer__item"><a href="stocks.html" class="footer__link">Акции</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="services.html#delivery" class="footer__link">Доставка</a></li>
+                  <li class="footer__item"><a href="index.html#price" class="footer__link">Калькулятор</a></li>
+                  <li class="footer__item"><a href="services.html#credit" class="footer__link">Кредит и рассрочка</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <p class="footer__phone">+7(831)216-19-69</p>
+                <p class="footer__worktime">Круглосуточно</p>
+                <p class="footer__email">info@stolokna.ru</p>
+                <div class="cash">
+                  <p class="cash__take">Принимаем к оплате</p>
+                  <div class="cash__types ">
+                    <img src="img/cash-1.png" alt="">
+                    <img src="img/cash-2.png" alt="">
+                    <img src="img/cash-3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex flex-column">
+              <h4 class="footer__name">“Столичные Окна”</h4>
+              <p class="footer__copy">&copy;&nbsp;Все права защищены 2019</p>
+              <span class="footer__info">Сайт не является публичной офертой и носит информационный характер.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> 
+
+    <!-- Modal Windows -->
+    <div class="modal fade" id="zamer" tabindex="0" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal__title">Запись на бесплатный замер</h4>
+            <p class="modal__text">Оператор ответит на все вопросы по взаимодействию и процессу работ, поможет вызвать инженера-сметчика на сегодня или выходные.</p>
+            <input type="text" placeholder="Телефон" class="form control modal__input">
+            <button type="button" class="modal__btn">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="call" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal__title">Закажите бесплатный звонок</h4>
+            <p class="modal__text">Оставьте свои контакты и мы перезвоним вам через 5 минут. Оператор ответит на все вопросы по взаимодействию и процессу работ, поможет вызвать инженера-сметчика на сегодня или выходные.</p>
+            <input type="text" placeholder="Телефон" class="modal__input">
+            <button type="button" class="modal__btn">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="consult" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal__title">Получить консультацию</h4>
+            <p class="modal__text">Оставьте свои контакты и мы перезвоним вам через 5 минут. Оператор ответит на все вопросы по взаимодействию и процессу работ, поможет вызвать инженера-сметчика на сегодня или выходные.</p>
+            <input type="text" placeholder="Телефон" class="modal__input">
+            <button type="button" class="modal__btn">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/burger.js"></script> 
+    <script src="https://kit.fontawesome.com/b60b688cfa.js"></script>
+
+  </body>
+</html>

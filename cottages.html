@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/cottages.min.css">
+    <title>Столичные Окна - Дома и Коттеджи</title>
+  </head>
+  <body>
+    <div class="burger ml-auto">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+    </div>
+    <nav id="nav">
+      <ul class="menu">
+        <li class="menu__item"><a href="about.html" class="menu__link-main">О Компании</a></li>
+        <ul class="menu__sub">
+          <li class="menu__item"><a href="articles.html" class="menu__link-sub">Новости</a></li>
+          <li class="menu__item"><a href="vacancy.html" class="menu__link-sub">Вакансии</a></li>
+          <li class="menu__item"><a href="pay.html#guarantee" class="menu__link-sub">Гарантии</a></li>
+          <li class="menu__item"><a href="about.html#awards" class="menu__link-sub">Награды</a></li>
+          <li class="menu__item"><a href="about.html#works" class="menu__link-sub">Наши работы</a></li>
+          <li class="menu__item"><a href="vacancy.html#workers" class="menu__link-sub">Сотрудники</a></li>
+          <li class="menu__item"><a href="pay.html" class="menu__link-sub">Оплата</a></li>
+        </ul>
+        <li class="menu__item"><a href="services.html" class="menu__link-main">Услуги</a></li>
+        <li class="menu__item"><a href="reviews.html" class="menu__link-main">Отзывы</a></li>
+        <li class="menu__item"><a href="stocks.html" class="menu__link-main">Акции</a></li>
+        <hr>
+        <li class="menu__item"><a href="index.html" class="menu__link-main">Окна</a></li>
+        <li class="menu__item"><a href="balcony.html" class="menu__link-main">Балконы</a></li>
+        <li class="menu__item"><a href="cottages.html" class="menu__link-main">Коттеджи</a></li>
+        <li class="menu__item"><a href="contacts.html" class="menu__link-main">Контакты</a></li>
+        <li class="menu__item"><a href="articles.html" class="menu__link-main">Статьи</a></li>      
+        <hr> 
+        <div class="cash">
+          <p class="cash__take">Принимаем к оплате</p>
+          <div class="cash__types ">
+            <img src="img/cash-1.png" alt="">
+            <img src="img/cash-2.png" alt="">
+            <img src="img/cash-3.png" alt="">
+          </div>
+        </div>
+        <hr>
+        <p class="info__city">Нижний Новгород</p>
+        <i class="fa fa-phone-alt info__icon"></i><span class="info__phone"> +7(831)216-19-69 </span>
+      </ul>
+      
+    </nav>
+    <header>
+      <div class="container d-flex">
+        <div class="col-lg-3 col-md-2">
+          <a href="index.html" class="logo">          
+            <img src="img/logo.png" alt="" class="logo__img">
+          </a>
+        </div>
+        <div class="col-lg-9 col-md-11 col-sm-9">
+          <div class="info">
+            <div class="row d-flex">
+              <div class="col-lg-5 col-md-5 col-sm-11" >
+                <p class="info__city">Нижний Новгород</p>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-11 ml-lg-auto">
+                  <i class="fa fa-phone-alt info__icon"></i><span class="info__phone"> +7(831)216-19-69 </span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <nav>
+                <ul class="nav nav-pills main-menu d-flex">
+                  <li class="main-menu__item dropdown">
+                    <a class="main-menu__link" data-toggle="dropdown" href="about.html" role="button" aria-haspopup="true" aria-expanded="false">О компании</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="articles.html">Новости</a>
+                      <a class="dropdown-item" href="vacancy.html">Вакансии</a>
+                      <a class="dropdown-item" href="pay.html#guarantee">Гарантия</a>
+                      <a class="dropdown-item" href="about.html#awards">Награды</a>
+                      <a class="dropdown-item" href="about.html#works">Наши работы</a>
+                      <a class="dropdown-item" href="vacancy.html#workers">Сотрудники</a>
+                      <a class="dropdown-item" href="pay.html">Оплата</a>
+                    </div>
+                  </li>
+                  <li class="main-menu__item"><a href="services.html" class="main-menu__link">Услуги</a></li>
+                  <li class="main-menu__item"><a href="reviews.html" class="main-menu__link">Отзывы</a></li>
+                  <li class="main-menu__item"><a href="stocks.html" class="main-menu__link">Акции</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-5 ml-auto cp" data-toggle="modal" data-target="#zamer"><p class="request-info">Приём заявок круглосуточно</p></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+              <nav>
+                <ul class="nav nav-pills cat d-flex">
+                  <li class="cat__item"><a href="okna.html" class="cat__link">Окна</a></li>
+                  <li class="cat__item"><a href="balcony.html" class="cat__link">Балконы</a></li>
+                  <li class="cat__item"><a href="cottages.html" class="cat__link">Коттеджи</a></li>
+                  <li class="cat__item"><a href="contacts.html" class="cat__link">Контакты</a></li>
+                  <li class="cat__item"><a href="articles.html" class="cat__link">Статьи</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-4 email-info">info@stolokna.ru</div>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+    <section id="main">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="main">
+            <div class="row d-flex flex-column">
+              <p class="main__tagline">С нами надёжно</p>
+              <h1 class="main__title">Дома и коттеджи</h1>
+              <span class="main__descr">Природа за окном</span>
+            </div>
+            <div class="row d-flex flex-column flex-md-row">
+              <button type="button" class="btn btn-primary main__btn" data-toggle="modal" data-target="#zamer">Заказать замер</button>
+              <div class="main__info">
+                <p>Немецкое качество<img class="main__img" src="img/rehau_logo.png" alt="Rehau"></p>
+                <p>Надёжно. Навсегда.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="crumbs">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Дома и коттеджи</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section class="stats">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="stats">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2 class="section__title">“Столичные окна” — это выгодно!</h2>
+                <p class="section__tagline">Экономьте там, где другие платят.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="stats__plus">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="stats__item d-flex flex-column flex-sm-row">
+                        <div class="stats__img"><img src="img/cottege-stats-1.png" alt=""></div>
+                        <div class="stats__item-info">
+                          <h4 class="stats__title">Лидирующее положение</h4>
+                          <p class="stats__desc">среди российских производителей светопрозрачных конструкций</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="stats__item d-flex flex-column flex-sm-row">
+                        <div class="stats__img"><img src="img/cottege-stats-4.png" alt=""></div>
+                        <div class="stats__item-info">
+                          <h4 class="stats__title">Гарантированное качество</h4>
+                          <p class="stats__desc">комплектующих, полного цикла изготовления и установки</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="stats__item d-flex flex-column flex-sm-row">
+                        <div class="stats__img"><img src="img/cottege-stats-2.png" alt=""></div>
+                        <div class="stats__item-info">
+                          <h4 class="stats__title">Собственное производство</h4>
+                          <p class="stats__desc">с передовым оборудованием от ведущих европейских брендов</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="stats__item d-flex flex-column flex-sm-row">
+                        <div class="stats__img"><img src="img/cottege-stats-5.png" alt=""></div>
+                        <div class="stats__item-info">
+                          <h4 class="stats__title">Индивидуальный подход</h4>
+                          <p class="stats__desc">для оптимального выбора и быстрого решения любого вопроса</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="stats__item d-flex flex-column flex-sm-row">
+                        <div class="stats__img"><img src="img/cottege-stats-3.png" alt=""></div>
+                        <div class="stats__item-info">
+                          <h4 class="stats__title">Широкий ассортимент</h4>
+                          <p class="stats__desc">окон и дверей из ПВХ, алюминия</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="stats__item d-flex flex-column flex-sm-row">
+                        <div class="stats__img"><img src="img/cottege-stats-6.png" alt=""></div>
+                        <div class="stats__item-info">
+                          <h4 class="stats__title">Выгодные условия оплаты</h4>
+                          <p class="stats__desc">в том числе кредит, рассрочка, без выезда в офис наличными и банковской картой</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h2 class="section__title blue">Остекление домов и коттеджей</h2>
+            <p class="section__tagline">Частный дом — уникальный архитектурный объект, требующий индивидуального подхода. Доверьте остекление вашего дома лидеру оконного рынка — команде «Столичные Окна»! Мы дорожим репутацией и имеем все необходимые ресурсы для решения самых сложных задач.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="windows">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="row d-flex flex-column">
+            <h2 class="section__title">Выберите окна</h2>
+            <p class="section__tagline">Лучшие варианты остекления вашего дома</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="windows__item d-flex flex-column flex-md-row">
+              <div class="col-lg-6">
+                <img src="img/cottages-windows-1.png" alt="" class="windows__img">
+              </div>
+              <div class="col-lg-4">
+                <div class="windows__info d-flex flex-column">
+                  <h4 class="windows__title">ПВХ</h4>
+                  <p class="windows__desc">Классический универсальный вариант для практичных хозяев. Варианты от эконом до премиум. Выбор параметров тепло- и шумоизоляции, функциональная фурнитура, широкие возможности декора.</p>
+                  <div class="windows__buttons d-flex flex-column flex-sm-row flex-lg-column flex-xl-row">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#zamer">заказать замер</button>
+                    <button class="btn btn-primary-inverse">подробнее</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="windows__item d-flex flex-column flex-md-row">
+              <div class="col-lg-6">
+                <img src="img/cottages-windows-2.jpg" alt="" class="windows__img">
+              </div>
+              <div class="col-lg-4">
+                <div class="windows__info d-flex flex-column">
+                  <h4 class="windows__title">Алюминий</h4>
+                  <p class="windows__desc">Технологичная гармония прочности и легкости. Нестандартные формы и портальное остекление с возможностью максимальной защиты. Выбор для основательных и современных.</p>
+                  <div class="windows__buttons d-flex flex-column flex-sm-row flex-lg-column flex-xl-row">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#zamer">заказать замер</button>
+                    <button class="btn btn-primary-inverse">подробнее</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section id="doors">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <a name="doors"></a>
+          <div class="row d-flex flex-column">
+            <h2 class="section__title">Выберите двери</h2>
+            <p class="section__tagline">Разнообразие конструкций, типов открывания и оформления: каждое ваше пожелание найдет отражение в готовом изделии.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-lg-10 m-auto">
+          <div class="row">
+            <div class="doors__item d-flex flex-column flex-md-row">
+              <div class="col-lg-6">
+                <img src="img/cottege-doors-1.jpg" alt="" class="doors__img">
+              </div>
+              <div class="col-lg-5">
+                <div class="doors__info d-flex flex-column">
+                  <h4 class="doors__title">Распашные</h4>
+                  <p class="doors__desc">Классический вариант дверей. Могут быть сделаны из ПВХ и алюминия. Благодаря возможностям декорирования впишутся в любой интерьер.</p>
+                  <div class="doors__buttons">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#consult">получить консультацию</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doors__item d-flex flex-column flex-md-row">
+              <div class="col-lg-6">
+                <img src="img/cottege-doors-2.png" alt="" class="doors__img">
+              </div>
+              <div class="col-lg-5">
+                <div class="doors__info d-flex flex-column">
+                  <h4 class="doors__title">Раздвижные</h4>
+                  <p class="doors__desc">Эргономичный вариант, позволяющий экономить пространство и усовершенствовать интерьер. Доступны любые виды декора и надежная многофункциональная фурнитура.</p>
+                  <div class="doors__buttons">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#consult">получить консультацию</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="request">
+      <div class="container">
+        <div class="request col-lg-10 m-auto">
+          <div class="row d-flex flex-column">
+            <div class="col-lg-12">
+              <h2 class="section__title white">оформите заявку на нашем сайте</h2>
+              <p class="section__tagline white">Мы качественно выполним Ваш заказ.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <form>
+                <div class="form-row">
+                  <div class="col-lg-4">
+                    <input type="text" class="form-control request__input" placeholder="Имя">
+                  </div>
+                  <div class="col-lg-4">
+                    <input type="text" class="form-control request__input" placeholder="Телефон">
+                  </div>
+                  <div class="col-lg-4">
+                      <button type="button" class="btn request__btn">Оставить заявку</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="roof">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <h2 class="section__title dblue">Остекление крыши</h2>
+          <p class="section__tagline">Впустите больше света в ваш дом! Сделайте часть крыши стеклянной, позволив проникать естественному дневному свещению. Мансардные окна, зенитные фонари, выходы на крышу, окна-балконы, световые туннели и многое другое. Выбирайте, придумывайте сами или закажите индивидуальный проект у нас — мы воплотим в жизнь любые идеи.</p>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-lg-12 d-flex flex-column flex-md-row">
+          <div class="col-lg-4">
+            <div class="roof__item d-flex flex-column">
+              <img src="img/cottege-roof-1.png" alt="" class="roof__img">
+              <h4 class="roof__title">Мансардные окна</h4>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="roof__item d-flex flex-column">
+              <img src="img/cottege-roof-2.png" alt="" class="roof__img">
+              <h4 class="roof__title">Зенитные фонари</h4>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="roof__item d-flex flex-column">
+              <img src="img/cottege-roof-3.png" alt="" class="roof__img">
+              <h4 class="roof__title">Выходы на крышу</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="garden">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="row">
+            <div class="garden">
+              <h4 class="garden__title">Зимний сад</h4>
+              <p class="garden__desc">Зимний сад — помещение полностью из стекла. Созерцайте окружающий мир тогда, когда вам хочется.</p>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#consult">Получить консультацию</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="protection">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="row d-flex flex-column">
+            <h2 class="section__title dblue">Защитные опции</h2>
+            <p class="section__tagline">В доме тепло, светло и красиво? Осталось позаботиться о защите. Подберите практичные решения для спокойствия и безопасности вашей семьи.</p>
+          </div>
+          <div class="protection">
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="protection__item d-flex flex-column flex-sm-row">
+                  <div class="protection__img"><img src="img/cottege-protection-1.png" alt=""></div>
+                  <div class="protection__item-info">
+                    <h4 class="protection__title">ЗАЩИТА ОТ ХОЛОДА</h4>
+                    <p class="protection__desc">Ультратеплый профиль и стеклопакет, электрообогреваемое стекло.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="protection__item d-flex flex-column flex-sm-row">
+                  <div class="protection__img"><img src="img/cottege-protection-4.png" alt=""></div>
+                  <div class="protection__item-info">
+                    <h4 class="protection__title">ЗАЩИТА ОТ ВЗЛОМА</h4>
+                    <p class="protection__desc">Ударопрочное стекло, алюминиевый профиль, противовзломная фурнитура, рольставни.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="protection__item d-flex flex-column flex-sm-row">
+                  <div class="protection__img"><img src="img/cottege-protection-2.png" alt=""></div>
+                  <div class="protection__item-info">
+                    <h4 class="protection__title">ЗАЩИТА ОТ ЖАРЫ</h4>
+                    <p class="protection__desc">Мультифункциональное стекло, тонированные стеклопакеты, жалюзи, рольставни.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="protection__item d-flex flex-column flex-sm-row">
+                  <div class="protection__img"><img src="img/cottege-protection-5.png" alt=""></div>
+                  <div class="protection__item-info">
+                    <h4 class="protection__title">ЗАЩИТА ОТ ПОЖАРА</h4>
+                    <p class="protection__desc">Алюминиевый профиль, пожаростойкое стекло.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="protection__item d-flex flex-column flex-sm-row">
+                  <div class="protection__img"><img src="img/cottege-protection-3.png" alt=""></div>
+                  <div class="protection__item-info">
+                    <h4 class="protection__title">ЗАЩИТА ОТ ШУМА</h4>
+                    <p class="protection__desc">Шумозащитное стекло, жалюзи, рольставни, вентиляционный клапан.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="protection__item d-flex flex-column flex-sm-row">
+                  <div class="protection__img"><img src="img/cottege-protection-6.png" alt=""></div>
+                  <div class="protection__item-info">
+                    <h4 class="protection__title">ЗАЩИТА ДЛЯ БЛИЗКИХ</h4>
+                    <p class="protection__desc">Детский замок, ограничитель открывания, закаленное стекло, защитная пленка.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="franch">
+      <div class="container">
+        <div class="col-lg-6 m-auto">
+          <div class="row">
+            <div class="franch">
+              <h4 class="franch__title">Французское остекление</h4>
+              <p class="franch__desc">Дайте солнечному свету еще больше простора</p>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#consult">Получить консультацию</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="acc">
+      <div class="container">
+        <div class="col-lg-10 m-auto">        
+          <div class="col-lg-12 m-auto">
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="decor">
+                  <h3 class="section__subtitle">Декор</h3>
+                  <p class="decor__short">Ваша идея в оформлении новых окон будет воплощена в жизнь. Мы можем преобразить профиль, стекло и всю оконную конструкцию.</p>
+                  <ul class="decor__list">
+                    <li class="decor__item">Ламинация профиля</li>
+                    <li class="decor__item">Покраска окон в любой цвет RAL</li>
+                    <li class="decor__item">Витражные техники</li>
+                    <li class="decor__item">Стразирование</li>
+                    <li class="decor__item">Алмазная гравировка</li>
+                    <li class="decor__item">Фотопечать на окнах</li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-outline-primary acc__btn" data-toggle="modal" data-target="#consult">Получить консультацию</button>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="shape">
+                  <h3 class="section__subtitle">Форма</h3>
+                  <div class="shape__item d-flex flex-column flex-sm-row">
+                    <div class="shape__img"><img src="img/shape-1.png" alt=""></div>
+                    <div class="shape__info">
+                      <h4 class="shape__title">Маленькие окна</h4>
+                      <p class="shape__short">Украшение и свет для мансардных и служебных помещений</p>
+                    </div>
+                  </div>
+                  <div class="shape__item d-flex flex-column flex-sm-row">
+                    <div class="shape__img"><img src="img/shape-2.png" alt=""></div>
+                    <div class="shape__info">
+                      <h4 class="shape__title">Фигурные и арочные окна</h4>
+                      <p class="shape__short">Для любого архитектурного и дизайнерского решения</p>
+                    </div>
+                  </div>
+                  <div class="shape__item d-flex flex-column flex-sm-row">
+                    <div class="shape__img"><img src="img/shape-3.png" alt=""></div>
+                    <div class="shape__info">
+                      <h4 class="shape__title">Окна больших размеров</h4>
+                      <p class="shape__short">Больше света для любителей простора и комфорта</p>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-outline-primary acc__btn" data-toggle="modal" data-target="#consult">Получить консультацию</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <section id="works">
+      <div class="container">
+        <div class="col-lg-6 m-auto">
+          <div class="row">
+            <div class="works">
+              <h4 class="works__title">наши работы</h4>
+              <p class="works__desc">Наши оконные конструкции украшают и сохраняют тепло в десятках тысяч квартир, домов и офисных помещений.</p>
+              <a href="about.html#works"><button class="btn btn-primary">Посмотреть все</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="offer">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="awards">
+                <h2 class="section__title">Награды</h2>
+                <div class="awards__item d-flex">
+                  <div class="awards__img"><img src="img/awards-1.png" alt=""></div>
+                  <div class="awards__info">
+                    <div class="awards__title">«Народная марка»</div>
+                    <div class="awards__desc">в номинации «Пластиковые окна»</div>
+                  </div>
+                </div>
+                <div class="awards__item d-flex">
+                  <div class="awards__img"><img src="img/awards-2.png" alt=""></div>
+                  <div class="awards__info">
+                    <div class="awards__title">«Компания года»</div>
+                    <div class="awards__desc">«за индивидуальный подход к клиенту и профессионализм сотрудников»</div>
+                  </div>
+                </div>
+                <div class="awards__item d-flex">
+                  <div class="awards__img"><img src="img/awards-3.png" alt=""></div>
+                  <div class="awards__info">
+                    <div class="awards__title">Медаль выставки</div>
+                    <div class="awards__desc">“Экологически безопасная продукция”</div>
+                  </div>
+                </div>
+              </div>
+              <a href="about.html#awards"><button class="btn awards__btn">Все награды</button></a>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="reviews">
+                <h2 class="section__title">Отзывы</h2>
+                <div class="reviews__item">
+                  <p class="reviews__text">Приятно удивили короткие сроки ожидания установки. Изготовление окон и их установка занимает меньше времени, чем у других компаний. Приятно, когда работу выполняют квалифицированные специалисты, профессионалы своего дела и просто приятные в общении люди. Советы и небольшие скидки являются приятным дополнением. Удачи сотрудникам.</p>
+                  <span class="reviews__author"><i><b>Смирновы А.А.</b>, М.И. г. Нижний Новгород</i></span>
+                </div>
+                <div class="reviews__item">
+                  <p class="reviews__text">Очень доволен работой компании, крайне редко встретишь компанию с таким грамотным подходом, и консультанты дали грамотную консультацию и монтажники сделали всё отлично! Поменял все окна в квартире, стало тише, "Медведицы" не слышно вообще. Рекомендую!</p>
+                  <span class="reviews__author"><i><b>Игорь</b> г. Нижний Новгород</i></span>
+                </div>
+              </div>
+              <a href="reviews.html#reviews"><button class="btn reviews__btn">Все отзывы</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stock">
+      <div class="container">
+        <div class="stock col-lg-10 m-auto">
+          <div class="row d-flex flex-column">
+            <div class="col-lg-12">
+              <a name="stock"></a>
+              <h2 class="section__title white">Получите скидку 40 %</h2>
+              <p class="section__tagline white">Оформите заявку на нашем сайте</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <form>
+                <div class="form-row">
+                  <div class="col-lg-4">
+                    <input type="text" class="form-control stock__input" placeholder="Имя">
+                  </div>
+                  <div class="col-lg-4">
+                    <input type="text" class="form-control stock__input" placeholder="Телефон">
+                  </div>
+                  <div class="col-lg-4">
+                      <button type="button" class="btn stock__btn">Заказать замер</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stocks">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="row d-flex flex-column">
+            <h2 class="section__title">Актуальные акции</h2>
+            <p class="section__tagline">Актуальные акции</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-lg-10 m-auto d-flex flex-column flex-md-row stocks">
+          <div class="col-lg-4 d-flex flex-column">
+            <img src="img/cottege-stocks-1.png" alt="" class="stocks__img">
+            <h4 class="stocks__title">Расширяйте<br>горизонты</h4>
+          </div>
+          <div class="col-lg-4 d-flex flex-column">
+            <img src="img/cottege-stocks-2.png" alt="" class="stocks__img">
+            <h4 class="stocks__title">Проверенная<br>безопасность</h4>
+          </div>
+          <div class="col-lg-4 d-flex flex-column">
+            <img src="img/cottege-stocks-3.png" alt="" class="stocks__img">
+            <h4 class="stocks__title">Скидка на детские<br>замки</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="office">
+      <div class="container">
+        <hr>
+        <div class="col-lg-10 m-auto">
+          <div class="office">
+            <div class="col-lg-12">
+              <div class="row d-flex flex-column">
+                <h2 class="office__title">Мобильный офис</h2>
+                <p class="section__tagline">От новых окон вас отделяет три простых шага.</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 cp" data-toggle="modal" data-target="#zamer">
+                  <img src="img/office-1.png" alt="" class="office__icons">
+                  <p class="office__desc">Оставьте заявку на сайте или звоните: +7(831)216-19-69</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <a href="okna.html">
+                    <div>
+                      <img src="img/office-2.png" alt="" class="office__icons">
+                      <p class="office__desc">Наш специалист произведёт замер и заключит договор.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <a href="pay.html#guarantee">
+                    <div>
+                      <img src="img/office-3.png" alt="" class="office__icons">
+                      <p class="office__desc">Мы произведем установку окон и вручим вам гарантийный сертификат.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+    <section id="actions">
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="actions">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="stocks.html">
+                  <div class="actions__item">
+                    <i class="fa fa-gift"></i> <span>Подарок</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="actions__item">
+                  <i class="fa fa-phone-alt"></i> <span data-toggle="modal" data-target="#call">Обратный звонок</span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href="index.html#price">
+                  <div class="actions__item">
+                    <i class="fa fa-calculator"></i> <span>Рассчет стоимости</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="actions__item">
+                  <i class="fa fa-pencil-ruler"></i> <span data-toggle="modal" data-target="#zamer">Запись на замер</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="col-lg-10 m-auto">
+          <div class="footer">
+            <div class="row">
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Продукция</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">О Компании</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Услуги</h4>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h4 class="footer__title">Контакты</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="okna.html" class="footer__link">Окна</a></li>
+                  <li class="footer__item"><a href="#doors" class="footer__link">Двери</a></li>
+                  <li class="footer__item"><a href="balcony.html" class="footer__link">Балконы</a></li>
+                  <li class="footer__item"><a href="okna.html" class="footer__link">Окна в дом</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="articles.html" class="footer__link">Новости</a></li>
+                  <li class="footer__item"><a href="vacancy.html" class="footer__link">Вакансии</a></li>
+                  <li class="footer__item"><a href="pay.html#guarantee" class="footer__link">Гарантия</a></li>
+                  <li class="footer__item"><a href="about.html#awards" class="footer__link">Награды</a></li>
+                  <li class="footer__item"><a href="about.html#works" class="footer__link">Наши работы</a></li>
+                  <li class="footer__item"><a href="vacancy.html#workers" class="footer__link">Сотрудники</a></li>
+                  <li class="footer__item"><a href="pay.html" class="footer__link">Оплата</a></li>
+                  <li class="footer__item"><a href="reviews.html" class="footer__link">Отзывы</a></li>
+                  <li class="footer__item"><a href="stocks.html" class="footer__link">Акции</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <ul class="nav flex-column">
+                  <li class="footer__item"><a href="services.html#delivery" class="footer__link">Доставка</a></li>
+                  <li class="footer__item"><a href="index.html#price" class="footer__link">Калькулятор</a></li>
+                  <li class="footer__item"><a href="services.html#credit" class="footer__link">Кредит и рассрочка</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <p class="footer__phone">+7(831)216-19-69</p>
+                <p class="footer__worktime">Круглосуточно</p>
+                <p class="footer__email">info@stolokna.ru</p>
+                <div class="cash">
+                  <p class="cash__take">Принимаем к оплате</p>
+                  <div class="cash__types ">
+                    <img src="img/cash-1.png" alt="">
+                    <img src="img/cash-2.png" alt="">
+                    <img src="img/cash-3.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex flex-column">
+              <h4 class="footer__name">“Столичные Окна”</h4>
+              <p class="footer__copy">&copy;&nbsp;Все права защищены 2019</p>
+              <span class="footer__info">Сайт не является публичной офертой и носит информационный характер.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> 
+
+    <!-- Modal Windows -->
+    <div class="modal fade" id="zamer" tabindex="0" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal__title">Запись на бесплатный замер</h4>
+            <p class="modal__text">Оператор ответит на все вопросы по взаимодействию и процессу работ, поможет вызвать инженера-сметчика на сегодня или выходные.</p>
+            <input type="text" placeholder="Телефон" class="modal__input">
+            <button type="button" class="modal__btn">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="consult" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal__title">Получить консультацию</h4>
+            <p class="modal__text">Оставьте свои контакты и мы перезвоним вам через 5 минут. Оператор ответит на все вопросы по взаимодействию и процессу работ, поможет вызвать инженера-сметчика на сегодня или выходные.</p>
+            <input type="text" placeholder="Телефон" class="modal__input">
+            <button type="button" class="modal__btn">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="call" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal__title">Закажите бесплатный звонок</h4>
+            <p class="modal__text">Оставьте свои контакты и мы перезвоним вам через 5 минут. Оператор ответит на все вопросы по взаимодействию и процессу работ, поможет вызвать инженера-сметчика на сегодня или выходные.</p>
+            <input type="text" placeholder="Телефон" class="modal__input">
+            <button type="button" class="modal__btn">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/burger.js"></script> 
+    <script src="https://kit.fontawesome.com/b60b688cfa.js"></script>
+
+  </body>
+</html>
