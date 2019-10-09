@@ -11,5 +11,6 @@ $(document).mouseup(function (e){
   if (!div.is(e.target)
       && div.has(e.target).length === 0) { 
     div.css("transform", "translateX(100%)")
+    div.css("transition-duration", "0.8s")
   }
 });
