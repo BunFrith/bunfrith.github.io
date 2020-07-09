@@ -1,0 +1,19 @@
+var ipr = document.getElementById('iprblock-90');
+if(ipr!=undefined){
+  ipr.innerHTML = '<noindex> <div class="_ban" > <a id="13714" rel="nofollow" onclick="iprbclk(13714,90,0);" target="_blank" title="World of Tanks" href="http://pwieu.com/click-BQDVFDTK-NLJQB8OF?bt=25&amp;tl=1&amp;sa=13714UA"> <span style="display:block"><img title="World of Tanks" src="http://ad.iplayer.org/images/mmorpg/13714.jpg"></span> <div style="text-align:center">World of Tanks</div> </a> </div> <div class="_ban" > <a id="18597" rel="nofollow" onclick="iprbclk(18597,90,0);" target="_blank" title="World of Warships" href="https://r.advg.agency/t/5xqx2/?sub1=18597UA"> <span style="display:block"><img title="World of Warships" src="http://ad.iplayer.org/images/mmorpg/18597.jpg"></span> <div style="text-align:center">World of Warships</div> </a> </div> <div class="_ban" > <a id="18639" rel="nofollow" onclick="iprbclk(18639,90,0);" target="_blank" title="Raid: Shadow Legends" href="https://ad.admitad.com/g/s9j9psshdtdc5ce6a36e9b9dc84aa6ed090f3a95/?subid=18639UA"> <span style="display:block"><img title="Raid: Shadow Legends" src="http://ad.iplayer.org/images/mmorpg/18639.jpg"></span> <div style="text-align:center">Raid: Shadow Legends</div> </a> </div> <div style="clear:both"></div></noindex>';
+}
+var css = '  /* wrapper */  #iprblock-90 {width: 1675px !important; height: 133px !important; background-color: white; }  /* Обертка игры */  #iprblock-90 ._ban {width: 265px !important; height:133px !important; float: left; text-align: center; padding-top: 0px !important; overflow: hidden;}  /* Обертка игры при наведении*/  #iprblock-90 ._ban:hover {background-color: }  /* Ссылка на игру*/  #iprblock-90 ._ban a{font-size: 0px; font-weight: bold; color: gray; font-family: Verdana}  #iprblock-90 ._ban:hover a {color: }  /* Картинка */  #iprblock-90 ._ban img {width: 265px !important; height: 133px !important; margin: 0px auto;}    #iprblock-90 ._ban div {line-height:1em; padding-top: 0px !important;}',
+head = document.getElementsByTagName('head')[0],
+ipr_links = ipr.getElementsByTagName('a'),
+style = document.createElement('style');
+style.type = 'text/css';
+if (style.styleSheet){style.styleSheet.cssText = css;}
+else {style.appendChild(document.createTextNode(css));}
+head.appendChild(style);
+delete(ipr)
+function iprbclk(game_id,block_id,sub_id){
+var img = new Image();
+img.src = 'http://ad.iplayer.org/track?id='+game_id+'&block_id='+block_id+'&sub_id='+sub_id;
+document.body.appendChild(img);
+}
+

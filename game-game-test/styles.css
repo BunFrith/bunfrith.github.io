@@ -1,0 +1,96 @@
+.trFlash *{
+    box-sizing: border-box;
+}
+.trFlash {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana,sans-serif; 
+}
+.blur{
+    background-color: rgba(0,0,0,.7);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.trFlash__main {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 15px;
+    z-index: 11;
+    width: 50%;
+    height: 30%;
+    border: 1px solid #333;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid #000
+}
+.trFlash__content{
+    width: 100%;
+    height: 100%;
+    background-color: #dfe0e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.trFlash__content p {
+    font-size: 14px;
+}
+.trFlash__content a {
+    background-color: #45b65a;
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 10px !important;
+    transition: .3s all ease;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.trFlash__content a:hover{
+    box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+    text-decoration: none;
+    color: #ddd;
+}
+.trFlash__content span {
+    font-size: 14px;
+    font-weight: bold;
+}
+.trFlash__content ol {
+
+}
+.trFlash__content li {
+    list-style: disc;
+}
+.trFlash__content i {
+    font-style: normal;
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 17px;
+    margin-top: 3px;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px;
+    height: 17px;
+
+}
