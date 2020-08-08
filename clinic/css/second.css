@@ -1,0 +1,139 @@
+/*--- Doctors ---*/
+.docs {
+  padding-bottom: 125px;
+}
+
+.docs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.docs-member {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 35px 15px;
+  width: 50%;
+}
+
+.docs-member__image {
+  border: 2px solid #907970;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding: 20px 0 0 20px;
+  position: relative;
+  margin-right: 30px;
+  width: 100%;
+  max-width: 289px;
+  min-height: 463px;
+}
+
+.docs-member__image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-width: 280px;
+  max-height: 414px;
+  border-radius: 20px;
+  z-index: -1;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.docs-member__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 11px;
+}
+
+.docs-member__name {
+  font-size: 3rem;
+  line-height: 1.2em;
+  color: #614B45;
+  margin-bottom: 20px;
+}
+
+.docs-member__rank {
+  color: #907970;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+.docs-member__exp {
+  color: #614B45;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.8em;
+}
+
+.docs-member__subway {
+  background: url("../img/icons/subway-single.svg") no-repeat center left;
+  line-height: 2.5rem;
+  padding-left: 33px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  color: #907970;
+}
+
+.docs-member__subway_dark {
+  background-image: url("../img/icons/subway-dark.svg");
+}
+
+.docs-member__subway_double {
+  background-image: url("../img/icons/orange-blue-subway.svg");
+  padding-left: 50px;
+  font-size: 1.18rem;
+}
+
+.docs-member__btn {
+  max-width: 262px;
+  font-size: 1.6rem;
+}
+
+.docs-member__btn:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199.98px) {
+  .docs-member {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .docs-member {
+    text-align: center;
+    display: block !important;
+  }
+  .docs-member__image {
+    margin: 0 auto;
+  }
+  .docs-member__subway {
+    max-width: 129px;
+    margin: 15px auto;
+  }
+  .docs-member__subway_double {
+    max-width: 245px;
+  }
+  .docs-member__btn {
+    margin: 0 auto;
+  }
+}
+
+/*--- Prices ---*/
+/*--- Services Card ---*/
+/*# sourceMappingURL=second.css.map */
