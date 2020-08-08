@@ -17,7 +17,11 @@ $(document).ready(function(){
    if (checkIfFlashEnabled()) {
       //
    } else {
+<<<<<<< HEAD
       var html="<div class='trFlash' style='background-image: url(Game-Game_files/image.jpg);'><div class='blur'></div><div class='trFlash__main'><div class='trFlash__content'><p>Для запуска игры необходимо активировать Flash-плеер</p><a class='trFlash__btn' href='https://get.adobe.com/flashplayer/' target='_blank' rel='nofollow'>активировать</a><span>или</span><ol><li>Нажмите на иконку&nbsp;<i>i</i>&nbsp;вверху слева в адресной строке браузера</li><li>В выпадающем списке 'Flash' выберите пункт 'разрешить'</li><li>Обновите страницу и наслаждайтесь игрой</li></ol></div></div></div>";
+=======
+      var html="<div class='trFlash' style='background-image: url(Game-Game_files/image.jpg);'><div class='blur'></div><div class='trFlash__main'><div class='trFlash__content'><p>Для запуска игры необходимо активировать Flash-плеер</p><a class='trFlash__btn' href='https://get.adobe.com/flashplayer/' target='_blank' rel='nofollow'>активировать</a><span>или</span><ol><li>Нажмите на иконку&nbsp;<i>i</i>&nbsp;вверху слева в адресной строке браузера</li><li>В выпадающем списке 'Flash' выберите пункт 'Разрешить'</li><li>Обновите страницу и наслаждайтесь игрой</li></ol></div></div></div>";
+>>>>>>> 81aa74f9b9f2200d683f4d112e5ca14d94314886
       $('.game-src').after(html);
    }
 })
