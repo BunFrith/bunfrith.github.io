@@ -1132,7 +1132,7 @@ footer .call-btn:hover, footer .phones:hover {
 
 .contacts-page__item .proc-main__btn {
   width: 80%;
-  margin: 20px auto;
+  margin: 20px 0;
 }
 
 .contacts-page__item span {
