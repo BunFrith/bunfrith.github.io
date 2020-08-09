@@ -1,4 +1,11 @@
 $(function () {
+   $('.slider').slick({
+		dots: true,
+		slidesToShow: 1,
+		centerMode: true,
+		variableWidth: true
+
+	});
 
    if ($('.doctors-slider').length) {
       $('.doctors-slider').slick({
@@ -47,11 +54,16 @@ $(function () {
    }
 
    if ($('.atts-menu').length) {
-      $('.atts-menu__main-item.has-child').click(function () {
+      $('.atts-menu__desktop .atts-menu__main-item.has-child').click(function () {
          $('.atts-menu__main-item').removeClass('active');
          $(this).addClass('active');
          $('.atts-menu__sub ul').removeClass('active');
          $('.atts-menu__sub ul').eq($(this).index()).addClass('active');
+      });
+
+      $('.atts-mobile .atts-menu__main-item.has-child').click(function () {
+         $('.atts-menu__main-item').not($(this)).removeClass('active');
+         $(this).toggleClass('active');
       });
    }
 
@@ -84,6 +96,10 @@ $(function () {
             },
          ]
       });
+   }
+
+   if ($('.quest').length) {
+      $('.quest-form__input[type=tel]').mask("+7(999)999-99-99");
    }
 
 
