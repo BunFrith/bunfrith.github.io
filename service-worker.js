@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.7b706ced7628e1b9380626cc17738ce8.js"
+  "/precache-manifest.24b704414c4421775a1c5ff299add6ea.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "yayoye-vue"});
